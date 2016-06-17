@@ -3,6 +3,12 @@
         "@context": "http://schema.org",
         "@type": "Localbusiness",
         "url": "http://fstm.de/",
+        "sameAs": "http://www.tischler-schreiner.org/moers/frank-schaefers-tischlermeister-aULE7B",
+        "sameAs": "https://www.moneyhouse.de/FSTM-GmbH-Moers",
+        "sameAs": "http://www.unternehmen24.info/Firmeninformationen/DE/3611526",
+        "sameAs": "http://www.unternehmen1.com/FSTM+GmbH.html",
+        "sameAs": "http://www.genios.de/firmen/firma/FS/fstm-gmbh.html",
+        "sameAs": "http://www.firmenwissen.de/az/firmeneintrag/47445/5210289972/FSTM_GMBH.html",
         "name": "FSTM GmbH",
         "address": {
             "@type": "PostalAddress",
@@ -12,7 +18,7 @@
             "streetAddress": "Trakehnenstr. 8b",
             "addressLocality": "Moers",
             "faxNumber": "+49 2841 400 695",
-            "telephone": "+49 163 4397337"
+            "telephone": "+49 2841 400 694"
         },
         "founder": {
             "@type": "Person",
