@@ -9,6 +9,9 @@
         "sameAs": "http://www.unternehmen1.com/FSTM+GmbH.html",
         "sameAs": "http://www.genios.de/firmen/firma/FS/fstm-gmbh.html",
         "sameAs": "http://www.firmenwissen.de/az/firmeneintrag/47445/5210289972/FSTM_GMBH.html",
+        "sameAs": "https://compaly.com/de/unternehmen/fstm-gmbh-moers-de",
+        "sameAs": "http://branchenbuch.meinestadt.de/moers/company/10307863",
+        "sameAs": "http://www.in0.de/fstm.de",
         "name": "FSTM GmbH",
         "address": {
             "@type": "PostalAddress",
