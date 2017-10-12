@@ -1,823 +1,1655 @@
 <!DOCTYPE html>
-<html lang="de-de">
+<html lang="de">
 <head>
-    <title>FSTM GmbH - Frank Schaefers Tischlermeister: Design in Holz</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
-    <meta name="language" content="german">
-    <meta name="content-language" content="de">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="language" content="german"/>
+    <meta name="content-language" content="de"/>
+    <meta http-equiv="content-type" content="text/html"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description"
-          content="Willkommen bei FSTM GmbH - Frank Schaefers Tischlermeister.
-          Wir bieten ihnen die Umsetzung s&auml;mtlicher Schreinerarbeiten auf h&ouml;chstem Niveau und nach individueller und pers&ouml;nlicher Kundenvorstellung. Von der Reparatur Ihrer Kommode bis hin zum vollst&auml;ndigen Ausbau Ihres Dachgeschosses - wir &uuml;bernehmen Planung, Entwurf, Konstruktion und Montage."/>
+          content="Schrank und Küche nach Maß, Einbaumöbel nach Ihren Wünschen, Parkett, Terrassenböden, Innenausbau und Designobjekte. Wir bieten Qualität vom Meister, exakt auf Sie zugeschnitten."/>
+    <meta name="author" content="FSTM GmbH, Frank Schaefers"/>
     <meta name="keywords"
-          content="Schreinermeister, Dachausbau, Innentüren, Bangkirai, Holzterrasse, Bautischlerei, Innenausbau, Frank, Schaefers, Moers, Tischlermeister, Schreinerei, Holz, Einbauschränke, Fenster, Innenausbau"/>
-    <meta name="author" content="FSTM GmbH Frank Schaefers">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="apple-mobile-web-app-capable" content="YES">
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    
-    <style>
-        .ib-main a {
-            cursor: pointer;
-        }
+          content="Dachbodenausbau, Moers, Ruhrgebiet, Niederrhein, Rheinland, Duisburg, Krefeld, Düsseldorf, Zebrano, Parkett, Holzboden, Einbaumöbel, Einbauschrank, Schrank nach Maß, FSTM, Frank, Schaefers, Schreinermeister, Dachausbau, Innentüren, Bangkirai, Holzterrasse, Bautischlerei, Innenausbau, Moers, Tischlermeister, Schreinerei, Holz, Einbauschränke, Fenster, Innenausbau"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="apple-mobile-web-app-capable" content="YES"/>
 
-        .ib-main-wrapper {
-            overflow-y: scroll;
-            overflow-x: hidden;
-            position: absolute;
-            top: 0px;
-            bottom: 24px;
-            outline: medium none;
-            width: 100%;
-        }
-    </style>
-    <noscript>
-        <style>
-            .ib-main a {
-                cursor: pointer;
-            }
+    <title>FSTM GmbH - Frank Schaefers Tischlermeister</title>
 
-            .ib-main-wrapper {
-                position: absolute;
-                top: 0px;
-                bottom: 24px;
-                overflow: scroll;
-            }
-        </style>
-    </noscript>
-    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-    <script id="previewTmpl" type="text/x-jquery-tmpl">
-        <div id="ib-img-preview" class="ib-preview">
-            <img src="${src}" alt="" class="ib-preview-img"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
 
-            <div class="vegas-overlay" style="margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background: transparent url(images/overlay/01.png);
-opacity: 0.5; "></div>
-            <span class="ib-preview-descr" style="display:none;">${description}</span>
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet"/>
 
-            <div class="ib-nav" style="display:none;">
-                <span class="ib-nav-prev">Previous</span>
-                <span class="ib-nav-next">Next</span>
-            </div>
-            <span class="ib-close" style="display:none;">Close Preview</span>
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+          rel="stylesheet" type="text/css"/>
 
-            <div class="ib-loading-large" style="display:none;">Loading...</div>
-        </div>
-    
-    </script>
-    <script id="contentTmpl" type="text/x-jquery-tmpl">
-        <div id="ib-content-preview" class="ib-content-preview">
-            <div class="ib-teaser" style="display:none;">{{html teaser}}</div>
-            <div class="ib-content-full" style="display:none;">{{html content}}</div>
-            <span class="ib-close" style="display:none;">Close Preview</span>
-        </div>
-    
-    </script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-<div class="container">
-    <div id="header" class="header">
-        <span>Copyright &copy; 2013 </span>Frank Schaefers <a href="mailto:frankschaefers@fstm.de"
-                                                              style="margin-left: 35px;"><span> frankschaefers@fstm.de</span></a>
-        <a href="impressum.html" style="margin-left: 35px;"><span> Impressum</span></a>
-                <span class="right_ab">
-                    
-					<a href="http://tympanus.net/codrops/2011/10/07/draggable-image-boxes-grid/" target="_new"
-                       style="font-size: 9px;">Design</a>
-<a href="http://creativecommons.org/licenses/by/2.0/deed.en_GB" target="_blank" style="font-size: 9px;">licensed</a>
-                </span>
+<!-- TODO favicon FS -->
+
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#Home" onclick="$('#menu-close').click();">FSTM GmbH</a>
+        </li>
+        <li>
+            <a href="#Home" onclick="$('#menu-close').click();">Home</a>
+        </li>
+        <li>
+            <a href="#Willkommen" onclick="$('#menu-close').click();">Willkommen</a>
+        </li>
+        <li>
+            <a href="#Services" onclick="$('#menu-close').click();">Unsere Services</a>
+        </li>
+        <!--<li>-->
+        <!--<a href="#portfolio" onclick="$('#menu-close').click();">Impressionen</a>-->
+        <!--</li>-->
+        <li>
+            <a href="#Kontakt" onclick="$('#menu-close').click();">Kontakt</a>
+        </li>
+        <!--<li>-->
+        <!--<a href="#partner" onclick="$('#menu-close').click();">Partner</a>-->
+        <!--</li>-->
+        <li>
+            <a href="#Impressum" onclick="$('#menu-close').click();">Impressum</a>
+        </li>
+        <li><a href="mailto:frankschaefers@fstm.de" onclick="$('#menu-close').click();"><span class="fa">&#xf003;</span>&#160;frankschaefers@fstm.de</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<header id="Home" title="Home" class="header">
+    <div class="text-vertical-center">
+        <div align="center"><img src="img/logo/fstm.png" class="img-responsive" alt="FSTM GmbH"/></div>
+        <h1>FSTM GmbH - Frank Schaefers Tischlermeister</h1>
+        <h3>Möbel nach Maß, Innenausbau, Parkett &amp; mehr</h3>
+        <br/>
+        <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+        <a href="#Willkommen" class="btn btn-dark btn-lg">Weiter</a>
     </div>
-    <div id="ib-top" class="ib-top">
-        <h1>FSTM GmbH: &nbsp;&nbsp;&nbsp;&nbsp; Frank Schaefers Tischlermeister </h1>
-    </div>
-    <div id="ib-main-wrapper" class="ib-main-wrapper">
-        <div class="ib-main">
+</header>
 
-            <!-- Willkommen -->
-
-            <a href="#"><img src="images/thumbs/logo.jpg" data-largesrc="images/large/logo.jpg"
-                             alt="www.fstm.de"/><span>www.fstm.de</span></a>
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Willkommen <span>FSTM GmbH</span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Herzlich Willkommen auf der Seite f&uuml;r inidividuelle Idee und ausgefallene L&ouml;sungen.</p>
-                    <p>Wir bieten ihnen die Umsetzung s&auml;mtlicher Schreinerarbeiten auf h&ouml;chstem Niveau und
-                        nach
-                        individueller und pers&ouml;nlicher Kundenvorstellung. Von der Reparatur Ihrer Kommode bis hin
-                        zum vollst&auml;ndigen Ausbau Ihres Dachgeschosses - wir
-                        &uuml;bernehmen Planung, Entwurf, Konstruktion und Montage.</p>
-                    <p>&nbsp;</p>
-                    <p>Unl&ouml;sbare Raumprobleme kennen wir nicht - sprechen Sie uns an:</p>
-
-                    <p style="margin-left:1em;">Mobil: 0163 - 439 73 37</p>
-
-                    <p style="margin-left:1em;">Fon: 02841 - 400 694</p>
-
-                    <p style="margin-left:1em;">Fax: 02841 - 400 695</p>
-
-                    <p style="margin-left:1em;">eMail: frankschaefers@fstm.de</p>
-                </div>
-            </a>
-            <a href="#"><img src="images/thumbs/schraube.jpg" data-largesrc="images/large/schraube.jpg"
-                             alt="Hochwertige Beschl&auml;ge"/><span>Hochwertige Beschl&auml;ge</span></a>
-            <a href="#"><img src="images/thumbs/montageteile.jpg" data-largesrc="images/large/montageteile.jpg"
-                             alt="Perfekte Planung"/><span>Perfekte Planung</span></a>
-
-
-            <!-- Parkett &amp; Laminat -->
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Parkett &amp; Laminat<span></span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Bodenbel&auml;ge zum Wohlf&uuml;hlen</p>
-                    <p>Vom modernen Laminat bis zum klassischen Echtholzparkett - ausschließlich beste Qualit&auml;t</p>
-                </div>
-            </a>
-            <a href="#"><img src="images/thumbs/parkett-eiche-rustikal-geoelt.jpg"
-                             data-largesrc="images/large/parkett-eiche-rustikal-geoelt.jpg"
-                             alt="Parkett Eiche ge&ouml;lt"/><span>Parkett Eiche ge&ouml;lt</span></a>
-            <a href="#"><img src="images/thumbs/parkett-eiche-geraeuchert.jpg"
-                             data-largesrc="images/large/parkett-eiche-geraeuchert.jpg"
-                             alt="Parkett Eiche kernger&auml;uchert"/><span>Parkett Eiche kernger&auml;uchert</span></a>
-            <a href="#"><img src="images/thumbs/parkettuebergang.jpg" data-largesrc="images/large/parkettuebergang.jpg"
-                             alt="Parkett Zebrano lackiert"/><span>Parkett Zebrano lackiert</span></a>
-            <a href="#"><img src="images/thumbs/parkett-eiche-geoelt.jpg"
-                             data-largesrc="images/large/parkett-eiche-geoelt.jpg"
-                             alt="Parkett Eiche ge&ouml;lt"/><span>Parkett Eiche ge&ouml;lt</span></a>
-
-
-            <!-- M&ouml;bel -->
-
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>M&ouml;belbau <span>individuell &amp; funktional</span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Individuelle L&ouml;sungen, zugeschnitten auf Ihre Bed&uuml;rfnisse - jede Nische perfekt
-                        genutzt</p>
-                    <p>Regale</p>
-                    <p>Einbauschr&auml;nke</p>
-                    <p>Designm&ouml;bel</p>
-                </div>
-            </a>
-
-            <a href="#"><img src="images/thumbs/einbauregal1.jpg" data-largesrc="images/large/einbauregal1.jpg"
-                             alt="Einbauregal"/><span>Einbauregal</span></a>
-            <a href="#"><img src="images/thumbs/einbauschrank1.jpg" data-largesrc="images/large/einbauschrank1.jpg"
-                             alt="Schlafzimmerschrank"/><span>Schlafzimmerschrank</span></a>
-            <a href="#"><img src="images/thumbs/einbauschreibtisch1.jpg"
-                             data-largesrc="images/large/einbauschreibtisch1.jpg"
-                             alt="B&uuml;roecke Dachgeschoss"/><span>B&uuml;roecke Dachgeschoss</span></a>
-            <a href="#"><img src="images/thumbs/einbauschreibtisch2.jpg"
-                             data-largesrc="images/large/einbauschreibtisch2.jpg"
-                             alt="Schreibtisch mobil"/><span>Schreibtisch mobil</span></a>
-            <a href="#"><img src="images/thumbs/bettkasten.jpg" data-largesrc="images/large/bettkasten.jpg"
-                             alt="Bettunterbau"/><span>Bettunterbau</span></a>
-            <a href="#"><img src="images/thumbs/badunterschrank.jpg" data-largesrc="images/large/badunterschrank.jpg"
-                             alt="Waschtisch"/><span>Waschtisch</span></a>
-            <a href="#"><img src="images/thumbs/kueche1.jpg" data-largesrc="images/large/kueche1.jpg"
-                             alt="Glasarbeitsplatte"/><span>Glasarbeitsplatte</span></a>
-            <a href="#"><img src="images/thumbs/lichtregal1.jpg" data-largesrc="images/large/lichtregal1.jpg"
-                             alt="Designobjekt Lichtregal"/><span>Designobjekt Lichtregal</span></a>
-            <a href="#"><img src="images/thumbs/garderobe1.jpg" data-largesrc="images/large/garderobe1.jpg"
-                             alt="Garderobe Buche &amp; Weiß"/><span>Garderobe Buche &amp; Weiß</span></a>
-            <a href="#"><img src="images/thumbs/spiegelschrank1.jpg" data-largesrc="images/large/spiegelschrank1.jpg"
-                             alt="Spiegelschrank Bad"/><span>Spiegelschrank Bad</span></a>
-            <a href="#"><img src="images/thumbs/arbeitsplatte1.jpg" data-largesrc="images/large/arbeitsplatte1.jpg"
-                             alt="K&uuml;chenarbeitsplatte"/><span>K&uuml;chenarbeitsplatte</span></a>
-            <a href="#"><img src="images/thumbs/arbeitsplatte2.jpg" data-largesrc="images/large/arbeitsplatte2.jpg"
-                             alt="Edelstahl-Einlage"/><span>Edelstahl-Einlage</span></a>
-
-            <!-- Innenausbau -->
-
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Innenausbau <span>Raumkonzepte</span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Leichtbauw&auml;nde</p>
-                    <p>Gipskartonverkleidungen</p>
-                    <p>abgeh&auml;ngte Decken</p>
-                    <p>Dachbodenausbau</p>
-                </div>
-            </a>
-
-            <a href="#"><img src="images/thumbs/dachausbau1.jpg" data-largesrc="images/large/dachausbau1.jpg"
-                             alt="Dachausbau"/><span>Dachausbau</span></a>
-            <a href="#"><img src="images/thumbs/decke1.jpg" data-largesrc="images/large/decke1.jpg"
-                             alt="Abgeh&auml;ngte Decke, Einbauspots"/><span>Abgeh&auml;ngte Decke, Einbauspots</span></a>
-            <a href="#"><img src="images/thumbs/decken.jpg" data-largesrc="images/large/decken.jpg"
-                             alt="Akustikdecke"/><span>Akustikdecke</span></a>
-            <a href="#"><img src="images/thumbs/saunabereich1.jpg" data-largesrc="images/large/saunabereich1.jpg"
-                             alt="Saunabereich"/><span>Saunabereich</span></a>
-            <a href="#"><img src="images/thumbs/saunabereich2.jpg" data-largesrc="images/large/saunabereich2.jpg"
-                             alt="Saunabereich"/><span>Saunabereich</span></a>
-
-            <!-- Treppen -->
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Treppen <span></span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Von gerade bis geschwungen, von klassisch bis exravagant - Ihr Wunsch ist unsere
-                        Herausforderung.</p>
-                </div>
-            </a>
-            <a href="#"><img src="images/thumbs/treppe1.jpg" data-largesrc="images/large/treppe1.jpg"
-                             alt="Offene Treppe, Lack &amp; Edelstahl"/><span>Offene Treppe Lack &amp; Edelstahl</span></a>
-
-            <!-- Garten -->
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Holz im Freien<span>Außengestaltung</span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>In enger Zusammenarbeit mit renommiertern Landschaftsg&auml;rtnern bieten wir Ihnen die
-                        Gestaltung Ihres Gartens aus einer Hand - von der Terrasse bis zur Bepflanzung.</p>
-                    <p>Holzterrassen</p>
-                    <p>Gartenz&auml;une</p>
-                    <p>Terrassen&uuml;berdachungen</p>
-                    <p>Carports</p>
-                    <p>Vord&auml;cher</p>
-                </div>
-            </a>
-            <a href="#"><img src="images/thumbs/garten1.jpg" data-largesrc="images/large/garten1.jpg"
-                             alt="Garten Komplettgestaltung"/><span>Garten Komplettgestaltung</span></a>
-            <a href="#"><img src="images/thumbs/kinderbank1.jpg" data-largesrc="images/large/kinderbank1.jpg"
-                             alt="Sitzbank f&uuml;r Kinder"/><span>Sitzbank f&uuml;r Kinder</span></a>
-            <a href="#"><img src="images/thumbs/terrasse4.jpg" data-largesrc="images/large/terrasse4.jpg"
-                             alt="Garten Komplettgestaltung"/><span>Garten Komplettgestaltung</span></a>
-            <a href="#"><img src="images/thumbs/terrasse5.jpg" data-largesrc="images/large/terrasse5.jpg"
-                             alt="Terrasse Bangkirai"/><span>Terrasse Bangkirai</span></a>
-            <a href="#"><img src="images/thumbs/terrasse1.jpg" data-largesrc="images/large/terrasse1.jpg"
-                             alt="Dachterrasse Bangkirai"/><span>Dachterrasse Bangkirai</span></a>
-            <a href="#"><img src="images/thumbs/terrasse2.jpg" data-largesrc="images/large/terrasse2.jpg"
-                             alt="Dachterrasse Bangkirai"/><span>Dachterrasse Bangkirai</span></a>
-            <a href="#"><img src="images/thumbs/terrasse3.jpg" data-largesrc="images/large/terrasse3.jpg"
-                             alt="Dachterrasse Bangkirai"/><span>Dachterrasse Bangkirai</span></a>
-            <a href="#"><img src="images/thumbs/balkon1.jpg" data-largesrc="images/large/balkon1.jpg"
-                             alt="Balkon Bangkirai &amp; Spots"/><span>Balkon Bangkirai &amp; Spots</span></a>
-            <a href="#"><img src="images/thumbs/balkon2.jpg" data-largesrc="images/large/balkon2.jpg"
-                             alt="Balkon Bangkirai &amp; Spots"/><span>Balkon Bangkirai &amp; Spots</span></a>
-
-            <a href="#"><img src="images/thumbs/zaun1.jpg" data-largesrc="images/large/zaun1.jpg"
-                             alt="Gartenzaun Bangkirai"/><span>Gartenzaun Bangkirai</span></a>
-            <a href="#"><img src="images/thumbs/stallungen.jpg" data-largesrc="images/large/stallungen.jpg"
-                             alt="Tierstall"/><span>Tierstall</span></a>
-
-            <!-- Fenster &amp; T&uuml;ren -->
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Fenster &amp; T&uuml;ren</h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>Fenster</p>
-                    <p>Festverglasungen</p>
-                    <p>Innent&uuml;ren</p>
-                    <p>Wohnungst&uuml;ren</p>
-                    <p>Haust&uuml;ren</p>
-                </div>
-            </a>
-
-
-            <a href="#"><img src="images/thumbs/fenster1.jpg" data-largesrc="images/large/fenster1.jpg"
-                             alt="Giebelfensteranlage"/><span>Giebelfensteranlage</span></a>
-            <a href="#"><img src="images/thumbs/haustuer1.jpg" data-largesrc="images/large/haustuer1.jpg"
-                             alt="Haust&uuml;ranlage"/><span>Haust&uuml;ranlage</span></a>
-            <a href="#"><img src="images/thumbs/zimmertuer1.jpg" data-largesrc="images/large/zimmertuer1.jpg"
-                             alt="Zimmert&uuml;er Querfurniert"/><span>Zimmert&uuml;er Querfurniert</span></a>
-            <a href="#"><img src="images/thumbs/flurtuer1.jpg" data-largesrc="images/large/flurtuer1.jpg"
-                             alt="Dielent&uuml;r Eiche &amp; Glas"/><span>Dielent&uuml;r Eiche &amp; Glas</span></a>
-            <a href="#"><img src="images/thumbs/flurtuer2.jpg" data-largesrc="images/large/flurtuer2.jpg"
-                             alt="Dielent&uuml;r Eiche &amp; Glas"/><span>Dielent&uuml;r Eiche &amp; Glas</span></a>
-
-            <! -- Impressum -->
-
-            <a href="#" class="ib-content">
-                <div class="ib-teaser">
-                    <h2>Kontakt <span>frankschaefers@fstm.de</span></h2>
-                </div>
-                <div class="ib-content-full">
-                    <p>FSTM GmbH
-                        <br>Frank Schaefers
-                        <br>Trakehnenstr. 8b
-                        <br>47445 Moers</p>
-
-                    <p>Mobil: 0163 - 439 73 37</p>
-
-                    <p>Fon: 02841 - 400 694</p>
-
-                    <p>Fax: 02841 - 400 695</p>
-
-                    <p>eMail: frankschaefers@fstm.de</p>
-                </div>
-            </a>
-            <a href="#"><img src="images/thumbs/cncpresenter.jpg" data-largesrc="images/large/cncpresenter.jpg"
-                             alt="Promotion-Presenter"/><span>Promotion-Presenter</span></a>
-
-            <div class="clr"></div>
+<!-- About -->
+<section id="Willkommen" title="Willkommen" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-red">Willkommen bei der FSTM GmbH - Ihrem Tischlermeister in Moers</h2>
+                <p class="lead">Seit der Gründung 2008 überzeugen wir mit hochwertigen Möbeln nach Maß, der Ausführung
+                    sämtlicher Schreinerarbeiten und einer individuellen Beratung. </p>
+                <p class="lead">Von der Reparatur bis hin zur Neugestaltung:<br/>
+                    Ob beim neuen Schlafzimmerschrank, der Dachterrasse mit Holzboden oder neuen
+                    Zimmertüren in Ihrer Immobilie - wir sind für Sie da, beraten Sie, und finden die richtige Lösung
+                    für Ihre Wünsche. </p>
+                <p class="lead">Gerne beraten wir Sie vor Ort - nicht nur in Moers, sondern am Niederrhein, im
+                    Ruhrgebiet und im Rheinland.<br/>
+                    Duisburg, Oberhausen, Düsseldorf oder Köln? Sprechen Sie uns an.
+                </p>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Services" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
         </div>
-        <!-- ib-main -->
     </div>
-    <!-- ib-main-wrapper -->
-</div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-<script type="text/javascript" src="js/jquery.kinetic.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+</section>
+
+<aside class="callout">
+    <div class="text-vertical-center">
+    </div>
+</aside>
+
+<!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="Services" title="Unsere Services" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Unsere Services</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Moebelbau">
+                                <img src="img/services/moebelbau.jpg" class="img-rounded" width="120" height="120"/>
+                                <h4>
+                                    <strong>Möbelbau</strong>
+                                </h4>
+                            </a>
+                            <p>Einbauschränke, Regale, Betten nach Maß</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Bodenbelaege">
+                                <img src="img/services/bodenbelaege.jpg" class="img-rounded" width="120" height="120"/>
+                                <h4>
+                                    <strong>Bodenbel&#228;ge</strong>
+                                </h4>
+                            </a>
+                            <p>klassisches Echtholzparkett, moderne Vinylböden, einfaches Laminat</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Kuechen"><img src="img/services/kuechen.jpg" class="img-rounded" width="120"
+                                                    height="120"/>
+                                <h4>
+                                    <strong>K&#252;chen</strong>
+                                </h4></a>
+                            <p>von der Planung bis zur Endmontage</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Innenausbau"><img src="img/services/innenausbau.jpg" class="img-rounded"
+                                                        width="120"
+                                                        height="120"/>
+                                <h4>
+                                    <strong>Innenausbau</strong>
+                                </h4></a>
+                            <p>Leichtbauwände, abgehängte Decken, Dachbodenausbau</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Ueberdachungen"><img src="img/services/ueberdachungen.jpg" class="img-rounded"
+                                                           width="120"
+                                                           height="120"/>
+                                <h4>
+                                    <strong>Überdachungen</strong>
+                                </h4></a>
+                            <p>Vordach, Terrassendach, Carport</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-6"></div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Treppen"><img src="img/services/treppen.jpg" class="img-rounded" width="120"
+                                                    height="120"/>
+                                <h4>
+                                    <strong>Treppen</strong>
+                                </h4></a>
+                            <p>gerade bis geschwungen, klassisch bis extravagant</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Rolllaeden"> <img src="img/services/rolllaeden.jpg" class="img-rounded"
+                                                        width="120"
+                                                        height="120"/>
+                                <h4>
+                                    <strong>Rollläden &amp; Insektenschutz</strong>
+                                </h4></a>
+                            <p>Beschattung, Verdunklung, Fliegengitter</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#TuerenUndFenster"> <img src="img/services/tuerenundfenster.jpg"
+                                                              class="img-rounded" width="120"
+                                                              height="120"/>
+                                <h4>
+                                    <strong>Fenster &amp; Türen</strong>
+                                </h4></a>
+                            <p>Haustüren, Wohnungstüren, Schiebetüren, Fenster</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#GartenUndBalkon"> <img src="img/services/gartenundbalkon.jpg"
+                                                             class="img-rounded" width="120"
+                                                             height="120"/>
+                                <h4>
+                                    <strong>Garten &amp; Balkon</strong>
+                                </h4></a>
+                            <p>Holzterrassen, Gartenzäune, Überdachungen</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="service-item">
+                            <a href="#Kontak">
+                                <img src="img/services/logo.jpg" class="img-rounded" width="120" height="120"/>
+                                <h4>
+                                    <strong>FSTM</strong>
+                                </h4>
+                            </a>
+                            <p><a href="frankschaefers@fstm.de">frankschaefers@fstm.de</a><br/>0163 4397337</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 text-center nav-row">
+                    <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                    <a href="#Moebelbau" class="btn btn-dark btn-lg">Weiter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside class="callout">
+    <div class="text-vertical-center">
+    </div>
+</aside>
+
+<section id="Moebelbau" title="Möbelbau - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Möbelbau</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <p>Wir fertigen Möbel auf Maß, nach Ihren Wünschen und Gegebenheiten:</p>
+                        <ul>
+                            <li>Einbauschränke</li>
+                            <li>Dachschrägenschränke</li>
+                            <li>Drempelschränke</li>
+                            <li>Betten</li>
+                            <li>Regale</li>
+                            <li>Sideboards</li>
+                            <li>Raumteiler</li>
+                            <li>Gleittürfronten</li>
+                            <li>Dielenmöbel</li>
+                            <li>Garderoben</li>
+                            <li>Tische</li>
+                            <li>Bänke</li>
+                            <li>Büromöbel</li>
+                            <li>Arbeitsplätze</li>
+                            <li>Theken</li>
+                            <li>Ladeneinrichtungen</li>
+                            <li>Erweiterungen/Ergänzungen</li>
+                            <li>Umbauten/Änderungen</li>
+                            <li>Nischen-Lösungen</li>
+                            <li>Treppen-Unterbau</li>
+                            <li>Küchen</li>
+                        </ul>
+                        <p>Sprechen Sie uns an. Wir beraten Sie ausführlich aber unverbindlich! Gerne vereinbaren wir
+                            einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Moebelbau-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="1"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="2"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="3"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="4"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="5"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="6"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="7"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="8"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="9"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="11"></li>
+                            <li data-target="#Moebelbau-portfolio" data-slide-to="12"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/moebelbau/badunterschrank.jpg" alt="Badunterschrank nach Maß"/>
+                                <div class="carousel-caption">
+                                    <h2>Badunterschrank nach Maß</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/cncpresenter.jpg" alt="Promotion Presenter"/>
+                                <div class="carousel-caption">
+                                    <h2>Promotion Presenter</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/einbauschrank1.jpg"
+                                     alt="Schlafzimmerschrank nach Maß"/>
+                                <div class="carousel-caption">
+                                    <h2>Schlafzimmerschrank nach Maß</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/kueche1.jpg" alt="Küche mit Arbeitsplatte aus Glas"/>
+                                <div class="carousel-caption">
+                                    <h2>Küche mit Arbeitsplatte aus Glas</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/einbauschreibtisch2.jpg"
+                                     alt="Schreibtisch rollbar auf Führungsschiene"/>
+                                <div class="carousel-caption">
+                                    <h2>Schreibtisch rollbar auf Führungsschiene</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/esstisch-natur.jpg"
+                                     alt="Esstisch, afrikanischer Baumstamm"/>
+                                <div class="carousel-caption">
+                                    <h2>Esstisch, afrikanischer Baumstamm</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/kindermoebel.jpg"
+                                     alt="Kindermöbel"/>
+                                <div class="carousel-caption">
+                                    <h2>Kindermöbel</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/einbauschrank2.jpg"
+                                     alt="Einbauschrank mit Schräge"/>
+                                <div class="carousel-caption">
+                                    <h2>Einbauschrank mit Schräge</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/regal1.jpg"
+                                     alt="Regal mit Ablagesystem"/>
+                                <div class="carousel-caption">
+                                    <h2>Regal mit Ablagesystem</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/bettkasten.jpg"
+                                     alt="Bettkasten mit Schubladensystem"/>
+                                <div class="carousel-caption">
+                                    <h2>Bettkasten mit Schubladensystem</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/garderobe1.jpg"
+                                     alt="Garderobe, Buche / Weiß"/>
+                                <div class="carousel-caption">
+                                    <h2>Garderobe, Buche / Weiß</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/moebelbau/lichtregal1.jpg"
+                                     alt="Lichtdesign"/>
+                                <div class="carousel-caption">
+                                    <h2>Lichtdesign</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Moebelbau-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Moebelbau-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Bodenbelaege" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="Bodenbelaege" title="Bodenbeläge - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Bodenbeläge</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <p> Wir belegen Ihre Böden in sämtlichen Formen und Farben.</p>
+
+                        <p>Fachgerechte Lieferung und Verlegung von:</p>
+
+
+                        <ul>
+
+                            <li>Parkett</li>
+
+                            <li>Massivholzdiele</li>
+
+                            <li>Vinyl</li>
+                            <li>Laminat</li>
+
+
+                            <li>Trittschalldämmung</li>
+                            <li>Bangkirai</li>
+                        </ul>
+
+                        <p>Ebenfalls erhalten Sie über uns auch Leistungen unserer Partner-Unternehmen:
+                        </p>
+
+                        <ul>
+
+                            <li>Fliesen</li>
+
+                            <li>Naturstein</li>
+                            <li>Keramik</li>
+                        </ul>
+
+                        <p>Sprechen Sie uns an. Wir beraten Sie ausführlich aber unverbindlich! Gerne vereinbaren wir
+                            einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Bodenbelaege-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Bodenbelaege-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Bodenbelaege-portfolio" data-slide-to="1"></li>
+                            <li data-target="#Bodenbelaege-portfolio" data-slide-to="2"></li>
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="3"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Bodenbelaege-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/bodenbelaege/parkett-eiche-geoelt.jpg"
+                                     alt="Parkett Eiche geölt"/>
+                                <div class="carousel-caption">
+                                    <h2>Parkett, Eiche geölt</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/bodenbelaege/laminat1.jpg" alt="Laminat, Eiche grau"/>
+                                <div class="carousel-caption">
+                                    <h2>Laminat, Eiche grau</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/bodenbelaege/parkettuebergang.jpg" alt="Parkett, Zebrano lackiert"/>
+                                <div class="carousel-caption">
+                                    <h2>Parkett, Zebrano lackiert</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Bodenbelaege-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Bodenbelaege-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Kuechen" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="Kuechen" title="Küchen - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Küchen</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <p>Braucht Ihre Küche ein neues Gesicht?</p>
+
+                        <p>Bei uns bekommen Sie Ihre Traumküche - individuell, raumausnutzend,
+
+                            hochwertig und chic.
+
+                            Aber auch beim Umzug erledigen wir Abbau, Transport und Neuaufbau.</p>
+
+                        <p> Ebenfalls bieten wir an:</p>
+
+
+                        <ul>
+                            <li>Reparaturen</li>
+
+                            <li>Austausch einzelner Komponenten</li>
+
+                            <li>Umbau/Änderungen</li>
+
+                            <li>moderne Wandspiegel</li>
+
+                            <li>neue Fronten</li>
+                        </ul>
+
+
+                        <p> In Zusammenarbeit mit unseren Partner-Unternehmen erhalten Sie bei uns auch
+                            Komplettlösungen, von den Wasseranschlüssen, über die Elektrik bis hin zu Malerarbeiten.
+
+                            Selbstverständlich fachgerecht aus Meisterhand.</p>
+
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+
+
+                    </div>
+                    <div id="Kuechen-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Kuechen-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Kuechen-portfolio" data-slide-to="1"></li>
+                            <li data-target="#Kuechen-portfolio" data-slide-to="2"></li>
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="3"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Kuechen-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/kuechen/kueche1.jpg" alt="Küche mit Arbeitsplatte aus Glas"/>
+                                <div class="carousel-caption">
+                                    <h2>Küche mit Arbeitsplatte aus Glas</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/kuechen/arbeitsplatte2.jpg" alt="Arbeitsplatte mit Edelstahl"/>
+                                <div class="carousel-caption">
+                                    <h2>Arbeitsplatte mit Edelstahl</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/kuechen/kueche2.jpg" alt="Küche mit Kochinsel"/>
+                                <div class="carousel-caption">
+                                    <h2>Küche mit Kochinsel</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Kuechen-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Kuechen-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Innenausbau" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="Innenausbau" title="Innenausbau - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Innenausbau</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <p>Decken</p>
+
+                        <ul>
+                            <li>abgehängte Decken</li>
+
+                            <li>Akkustik-Decken</li>
+
+                            <li>Einbau-Spots</li>
+                        </ul>
+
+
+                        <p>Wände</p>
+
+                        <ul>
+                            <li>Leichtbauwände</li>
+
+                            <li>Trockenbau</li>
+
+                            <li>Brandschutzwände</li>
+                        </ul>
+
+
+                        <p>Dachausbau</p>
+
+                        <ul>
+                            <li>Dachschrägen</li>
+
+                            <li>Drempel</li>
+
+                            <li>Dämmung</li>
+
+                            <li>Dampfsperre</li>
+
+                            <li>Dachflächenfenster</li>
+                        </ul>
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Innenausbau-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Innenausbau-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Innenausbau-portfolio" data-slide-to="1"></li>
+                            <li data-target="#Innenausbau-portfolio" data-slide-to="2"></li>
+                            <li data-target="#Innenausbau-portfolio" data-slide-to="3"></li>
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Innenausbau-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/innenausbau/saunabank1.jpg" alt="Saunabänke"/>
+                                <div class="carousel-caption">
+                                    <h2>Saunabänke</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/innenausbau/trockenbau.jpg" alt="Baldachin mit Spots"/>
+                                <div class="carousel-caption">
+                                    <h2>Baldachin mit Spots</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/innenausbau/trockenbau2.jpg" alt="abgehängte Decke"/>
+                                <div class="carousel-caption">
+                                    <h2>abgehängte Decke</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/innenausbau/dachausbau1.jpg"
+                                     alt="Dachschräge mit Velux-Fenstern"/>
+                                <div class="carousel-caption">
+                                    <h2>Dachschräge mit Velux-Fenstern</h2>
+                                </div>
+                            </div>
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/einbauschrank1.jpg" alt="Schlafzimmerschrank nach Maß"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Schlafzimmerschrank nach Maß</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/kueche1.jpg" alt="Küche mit Arbeitsplatte aus Glas"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Küche mit Arbeitsplatte aus Glas</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/einbauschreibtisch2.jpg"-->
+                            <!--alt="Schreibtisch rollbar auf Führungsschiene"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Schreibtisch rollbar auf Führungsschiene</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/bodenbelaege/parkett-eiche-geoelt.jpg" alt="Weitzer Parkett Eiche geölt"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Weitzer Parkett Eiche geölt</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/saunabereich1.jpg" alt="Saunabereich"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Saunabereich</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/gartenBalkon/balkon1.jpg" alt="Terrasse: Bangkirai mit Spots"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Terrasse: Bangkirai mit Spots</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/treppen/treppe1.jpg" alt="offene Treppe: Lack und Edelstahl"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Offene Treppe: Lack und Edelstahl</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Innenausbau-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Innenausbau-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Ueberdachungen" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Ueberdachungen" title="Überdachungen - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Überdachungen</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <ul>
+                            <li>Vordach</li>
+                            <li>Terrassen-Überdachung</li>
+                            <li>Wintergarten</li>
+                            <li>Carport</li>
+                        </ul>
+
+                        <ul>
+                            <li>Holz</li>
+                            <li>Aluminium</li>
+                            <li>Glas</li>
+                            <li>Edelstahl</li>
+                            <li>Kunststoff</li>
+                        </ul>
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Ueberdachungen-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Ueberdachungen-portfolio" data-slide-to="0" class="active"></li>
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="1"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="2"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="3"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Ueberdachungen-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/ueberdachungen/fstm.png" alt=" "/>
+                                <div class="carousel-caption">
+                                    <h2>&#160;</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Ueberdachungen-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Ueberdachungen-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Treppen" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Treppen" title="Treppen - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Treppen</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <ul>
+                            <li>gerade oder geschwungen</li>
+
+
+                            <li style="text-align: right; list-style-position: inside;">
+                                klassisch oder extravagant
+                            </li>
+
+
+                            <li>
+                                Holz, Glas, Stein, Metall
+                            </li>
+
+
+                            <li style="text-align: right; list-style-position: inside;">
+                                einläufig oder mehrläufig
+                            </li>
+
+
+                            <li>
+                                offen oder geschlossen
+                            </li>
+
+
+                            <li style="text-align: right; list-style-position: inside;">
+                                rauf oder runter
+                            </li>
+
+
+                            <li>
+                                aufgesattelt oder eingestemmt
+                            </li>
+                        </ul>
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Treppen-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Treppen-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Treppen-portfolio" data-slide-to="1"></li>
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="2"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="3"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Treppen-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/treppen/treppe2.jpg" alt="offene Treppe, Buche"/>
+                                <div class="carousel-caption">
+                                    <h2>offene Treppe, Buche</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/treppen/treppe1.jpg" alt="offene Treppe, Lack und Edelstahl"/>
+                                <div class="carousel-caption">
+                                    <h2>Offene Treppe, Lack und Edelstahl</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Treppen-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Treppen-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Rolllaeden" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="Rolllaeden" title="Rollläden &amp; Insektenschutz - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Rollläden &amp; Insektenschutz</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <p>Rolläden</p>
+
+                        <ul>
+                            <li>Aluminium</li>
+                            <li>Kunststoff</li>
+                            <li>Holz</li>
+                            <li style="text-align: right; list-style-position: inside;">Reparatur</li>
+                            <li style="text-align: right; list-style-position: inside;">Umbau</li>
+                            <li style="text-align: right; list-style-position: inside;">Neubau</li>
+                            <li>Motorantrieb</li>
+                            <li>Gurtband</li>
+                            <li>Kurbel</li>
+                            <li style="text-align: right; list-style-position: inside;">Komplettsystem</li>
+                            <li style="text-align: right; list-style-position: inside;">Panzer</li>
+                            <li style="text-align: right; list-style-position: inside;">Ersatzteile</li>
+                        </ul>
+
+
+                        <p>Blendläden/Klappläden</p>
+
+
+                        <p>Insektenschutz</p>
+
+                        <ul>
+                            <li>Fliegengitter</li>
+
+                            <li>Spannrahmen</li>
+
+                            <li>Schiebetüren</li>
+
+                            <li>Drehtüren</li>
+
+                            <li>Rollo</li>
+
+                            <li>Faltgitter</li>
+                        </ul>
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="Rolllaeden-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#Rolllaeden-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#Rolllaeden-portfolio" data-slide-to="1"></li>
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="2"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="3"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="4"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#Rolllaeden-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/rollaeden/rolladen.jpg" alt="Rollladen, Kunststoff"/>
+                                <div class="carousel-caption">
+                                    <h2>Rollladen, Kunststoff</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/rollaeden/plissee.jpg" alt="Plissee nach Maß"/>
+                                <div class="carousel-caption">
+                                    <h2>Plissee nach Maß</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#Rolllaeden-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#Rolllaeden-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#TuerenUndFenster" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="TuerenUndFenster" title="Türen und Fenster - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Türen &amp; Fenster</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+
+                        <p>Egal ob Holz, Kunststoff, Aluminium oder kombiniert…</p>
+                        <p>Egal ob Reparatur, Austausch oder Neubau… </p>
+                        <p>Egal ob weiß oder farbig… </p>
+
+                        <p>Türen</p>
+
+                        <ul>
+                            <li>Haustüren</li>
+
+                            <li>Wohnungstüren</li>
+
+                            <li>Zimmertüren</li>
+
+                            <li>Schiebetüren</li>
+
+                            <li>Terrassentüren</li>
+
+                            <li>Nebeneingangstüren</li>
+
+                            <li>Kellertüren</li>
+
+                            <li>Brandschutztüren</li>
+
+                            <li>Hebe-Schiebe-Tür-Anlagen</li>
+                        </ul>
+
+
+                        <p>Fenster</p>
+
+                        <ul>
+                            <li>Dreh-Kipp-Fenster</li>
+
+                            <li>Dachfenster</li>
+
+                            <li>Stulpfenster</li>
+
+                            <li>Festverglasungen</li>
+                            <li>Wintergärten</li>
+
+                            <li>Isolierglas</li>
+
+                            <li>Ornamentglas</li>
+                        </ul>
+
+
+                        <p>Einbruchschutz</p>
+
+                        <ul>
+                            <li>Sicherheitsbeschläge</li>
+
+                            <li>Pilzkopfverriegelung</li>
+
+                            <li>Zusatzsicherungen</li>
+                        </ul>
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="TuerenUndFenster-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#TuerenUndFenster-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#TuerenUndFenster-portfolio" data-slide-to="1"></li>
+                            <li data-target="#TuerenUndFenster-portfolio" data-slide-to="2"></li>
+                            <li data-target="#TuerenUndFenster-portfolio" data-slide-to="3"></li>
+                            <li data-target="#TuerenUndFenster-portfolio" data-slide-to="4"></li>
+                            <!--<li data-target="#TuerenUndFenster-portfolio" data-slide-to="5"></li>-->
+                            <!--<li data-target="#TuerenUndFenster-portfolio" data-slide-to="6"></li>-->
+                            <!--<li data-target="#TuerenUndFenster-portfolio" data-slide-to="7"></li>-->
+                            <!--<li data-target="#TuerenUndFenster-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#TuerenUndFenster-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/tuerenFenster/haustuer1.jpg" alt="Haustür, Aluminium"/>
+                                <div class="carousel-caption">
+                                    <h2>Haustür, Aluminium</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/tuerenFenster/nebeneingang1.jpg" alt="Nebeneingangstüren"/>
+                                <div class="carousel-caption">
+                                    <h2>Nebeneingangstüren</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/tuerenFenster/anbau1.jpg" alt="Anbau mit Hebe-Schiebetür"/>
+                                <div class="carousel-caption">
+                                    <h2>Anbau mit Hebe-Schiebetür</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/tuerenFenster/fenster1.jpg" alt="Schrägfenster mit Plissee"/>
+                                <div class="carousel-caption">
+                                    <h2>Schrägfenster mit Plissee</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/tuerenFenster/haustuer2.jpg" alt="Haustüranlage"/>
+                                <div class="carousel-caption">
+                                    <h2>Haustüranlage</h2>
+                                </div>
+                            </div>
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/cncpresenter.jpg" alt="Promotion Presenter"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Promotion Presenter</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/einbauschrank1.jpg" alt="Schlafzimmerschrank nach Maß"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Schlafzimmerschrank nach Maß</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/kueche1.jpg" alt="Küche mit Arbeitsplatte aus Glas"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Küche mit Arbeitsplatte aus Glas</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/moebelbau/einbauschreibtisch2.jpg"-->
+                            <!--alt="Schreibtisch rollbar auf Führungsschiene"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Schreibtisch rollbar auf Führungsschiene</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/bodenbelaege/parkett-eiche-geoelt.jpg" alt="Weitzer Parkett Eiche geölt"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Weitzer Parkett Eiche geölt</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/saunabereich1.jpg" alt="Saunabereich"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Saunabereich</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/gartenBalkon/balkon1.jpg" alt="Terrasse: Bangkirai mit Spots"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Terrasse: Bangkirai mit Spots</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="item">-->
+                            <!--<img src="img/portfolio/treppen/treppe1.jpg" alt="offene Treppe: Lack und Edelstahl"/>-->
+                            <!--<div class="carousel-caption">-->
+                            <!--<h2>Offene Treppe: Lack und Edelstahl</h2>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#TuerenUndFenster-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#TuerenUndFenster-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#GartenUndBalkon" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="GartenUndBalkon" title="Garten &amp; Balkon - Unsere Services" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 text-center">
+                <h2>Garten &amp; Balkon</h2>
+                <hr class="small"/>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-0 col-md-12 col-md-offset-0 text-left">
+                        <ul>
+                            <li>Holz-Terrassen</li>
+                            <li>WPC</li>
+
+                            <li>Sitzbänke</li>
+
+                            <li>Wintergärten</li>
+
+
+                            <li>Überdachungen</li>
+
+                            <li>Geländer</li>
+
+
+                            <li>Sandkästen</li>
+                            <li>Spielgeräte</li>
+
+                            <li>Sichtschutz</li>
+                            <li>Gartenzäune</li>
+                            <li>Gartentore</li>
+                        </ul>
+
+
+                        <p> In enger Zusammenarbeit mit renommierten Landschaftsgärtnern bieten wir Ihnen die Gestaltung
+                            Ihres Gartens aus einer Hand – von der Terrasse bis zur Bepflanzung.
+                        </p>
+
+                        <p>Sprechen Sie uns an.
+
+                            Wir beraten Sie ausführlich aber unverbindlich!
+
+                            Gerne vereinbaren wir einen Termin bei Ihnen vor Ort.</p>
+                    </div>
+                    <div id="GartenUndBalkon-portfolio"
+                         class="carousel slide col-lg-8 col-lg-offset-0 col-md-12 col-md-offset-0" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="0" class="active"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="1"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="2"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="3"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="4"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="5"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="6"></li>
+                            <li data-target="#GartenUndBalkon-portfolio" data-slide-to="7"></li>
+                            <!--<li data-target="#GartenUndBalkon-portfolio" data-slide-to="8"></li>-->
+                            <!--<li data-target="#GartenUndBalkon-portfolio" data-slide-to="9"></li>-->
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="img/portfolio/gartenBalkon/balkon1.jpg" alt="Balkon, Bangkirai mit Spots"/>
+                                <div class="carousel-caption">
+                                    <h2>Balkon, Bangkirai mit Spots</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/terrasse2.jpg" alt="Terrassen, Bangkirai"/>
+                                <div class="carousel-caption">
+                                    <h2>Terrassen, Bangkirai</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/terrasse1.jpg" alt="Terrasse mit Treppe"/>
+                                <div class="carousel-caption">
+                                    <h2>Terrasse mit Treppe</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/balkon2.jpg"
+                                     alt="Balkongeländer, Aluminium und Holz"/>
+                                <div class="carousel-caption">
+                                    <h2>Balkongeländer, Aluminium und Holz</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/garten1.jpg"
+                                     alt="Garten, Komplettgestaltung"/>
+                                <div class="carousel-caption">
+                                    <h2>Garten, Komplettgestaltung</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/kinderbank1.jpg"
+                                     alt="Sitzbank für Kinder"/>
+                                <div class="carousel-caption">
+                                    <h2>Sitzbank für Kinder</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/terrasse4.jpg"
+                                     alt="Terrasse und Garten"/>
+                                <div class="carousel-caption">
+                                    <h2>Terrasse und Garten</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/gartenBalkon/zaun1.jpg"
+                                     alt="Gartenzaun"/>
+                                <div class="carousel-caption">
+                                    <h2>Gartenzaun</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <i class="left carousel-control" href="#GartenUndBalkon-portfolio" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </i>
+                        <i class="right carousel-control" href="#GartenUndBalkon-portfolio" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center nav-row">
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Weiter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Map -->
+<section id="Kontakt" title="Kontakt" class="bg-primary">
+    <aside class="callout">
+        <div class="text-vertical-center">
+        </div>
+    </aside>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Kontakt</h2>
+                <hr class="small"/>
+
+                <div class="row text-center">
+                    <div class="col-lg-12 col-md-12 text-center" style="vertical-align: middle;">
+                        <h4>
+                            <strong>FSTM GmbH</strong><br/>
+                            Frank Schaefers Tischlermeister
+                        </h4>
+                        <p style="margin-top: 20px;">Lieferadresse (Lager):<br/>Kaldenhausener Str. 45, 47447 Moers</p>
+                        <p style="margin-top: 20px;">Rechnungsadresse (Büro):<br/>Trakehnenstr. 8b, 47445 Moers</p>
+                        <ul style="margin-top: 20px;" class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i>&#160;02841 400 694</li>
+                            <li><i class="fa fa-mobile-phone fa-fw"></i>&#160;0163 439 7337</li>
+                            <li><i class="fa fa-fax fa-fw"></i>&#160;02841 400 695</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>&#160;<a href="mailto:frankschaefers@fstm.de">frankschaefers@fstm.de</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="small"/>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside class="callout">
+    <div class="text-vertical-center">
+    </div>
+</aside>
+<!--
+<section id="partner" class="services">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>Unsere Partner</h2>
+                <h3>Eine Auswahl der Marken, mit denen wir zusammen arbeiten</h3>
+                <hr class="small" />
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                             <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Partner 1</strong>
+                            </h4>
+                            <p>Bla Bla</p>
+                            <a href="#" class="btn btn-light">Zur Website</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Partner 2</strong>
+                            </h4>
+                            <p>Bla Bla</p>
+                            <a href="#" class="btn btn-light">Zur Website</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                             <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Partner 3</strong>
+                            </h4>
+                            <p>Bla Bla</p>
+                            <a href="#" class="btn btn-light">Zur Website</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                             <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                            <h4>
+                                <strong>Partner 4</strong>
+                            </h4>
+                            <p>Bla Bla</p>
+                            <a href="#" class="btn btn-light">Zur Website</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<!-- About -->
+<section id="Impressum" title="Impressum" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Impressum</h2>
+                <h3>Rechtliches und Disclaimer</h3>
+                <p>Diese Seiten sind ein Internetangebot von:</p>
+
+                <p>FSTM GmbH<br/>
+                    Frank Schaefers<br/>
+                    Trakehnenstr. 8b<br/>
+                    47445 Moers<br/>
+                    Deutschland</p>
+
+                <p>im folgenden Autor genannt</p>
+
+
+                <p>Dieses Impressum ist als Teil von fstm.de zu betrachten.</p>
+
+                <h3>Inhalt des Onlineangebotes</h3>
+
+                <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität
+                    der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden
+                    materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen
+                    Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht
+                    wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches
+                    oder grob fahrlässiges Verschulden vorliegt.</p>
+
+                <p>Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile
+                    der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu
+                    löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.</p>
+
+                <h3>Verweise und Links</h3>
+
+                <p>Bei direkten oder indirekten Verweisen auf fremde Webseiten ("Hyperlinks"), die außerhalb des
+                    Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem
+                    Fall in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich
+                    und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern.</p>
+
+                <p>Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte
+                    auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die
+                    Inhalte oder die Urheberschaft der gelinkten/verknüpften Seiten hat der Autor keinerlei Einfluss.
+                    Deshalb distanziert er sich hiermit ausdrücklich von allen Inhalten aller gelinkten /verknüpften
+                    Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des
+                    eigenen Internetangebotes gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor
+                    eingerichteten Gästebüchern, Diskussionsforen und Mailinglisten. Für illegale, fehlerhafte oder
+                    unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung
+                    solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche
+                    verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich
+                    verweist.</p>
+
+                <h3>Urheber- und Kennzeichenrecht</h3>
+
+                <p> Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Grafiken,
+                    Tondokumente, Videosequenzen und Texte zu beachten.</p>
+
+                <p>Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und
+                    Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und
+                    den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist
+                    nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind!</p>
+
+                <p>Das Copyright für veröffentlichte und vom Autor selbst erstellte Objekte bleibt allein beim Autor
+                    der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und
+                    Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des
+                    Autors nicht gestattet.</p>
+
+                <h3>Datenschutz</h3>
+
+                <p>Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe persönlicher oder geschäftlicher
+                    Daten (Emailadressen, Namen, Anschriften) besteht, so erfolgt die Preisgabe dieser Daten seitens des
+                    Nutzers auf ausdrücklich freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller angebotenen
+                    Dienste ist - soweit technisch möglich und zumutbar - auch ohne Angabe solcher Daten bzw. unter
+                    Angabe anonymisierter Daten oder eines Pseudonyms gestattet. Die Nutzung der im Rahmen des
+                    Impressums oder vergleichbarer Angaben veröffentlichten Kontaktdaten wie Postanschriften, Telefon-
+                    und Faxnummern sowie Emailadressen durch Dritte zur Übersendung von nicht ausdrücklich
+                    angeforderten Informationen ist nicht gestattet. Rechtliche Schritte gegen die Versender von
+                    sogenannten Spam-Mails bei Verstössen gegen dieses Verbot sind ausdrücklich vorbehalten.</p>
+
+                <h3>Rechtswirksamkeit dieses Haftungsausschlusses</h3>
+
+                <p>Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese
+                    Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden
+                    Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile
+                    des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.</p>
+            </div>
+
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="#Home" class="btn btn-dark btn-lg">Home</a>
+                <a href="#Kontakt" class="btn btn-dark btn-lg">Kontakt</a>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <hr class="small"/>
+                <p class="text-muted">Copyright &#169; Frank Schaefers 2008 -
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<aside class="callout">
+    <div class="text-vertical-center">
+    </div>
+</aside>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"
+        integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/bundled-uncompressed/html4+html5/jquery.history.js"></script>
+
+<!-- Custom Theme JavaScript -->
 <script type="text/javascript">
+    // Closes the sidebar menu
+    $("#menu-close").click(function (e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
     $(function () {
-
-        var $ibWrapper = $('#ib-main-wrapper'),
-
-                Template = (function () {
-
-// true if dragging the container
-                    var kinetic_moving = false,
-// current index of the opened item
-                            current = -1,
-// true if the item is being opened / closed
-                            isAnimating = false,
-// items on the grid
-                            $ibItems = $ibWrapper.find('div.ib-main > a'),
-// image items on the grid
-                            $ibImgItems = $ibItems.not('.ib-content'),
-// total image items on the grid
-                            imgItemsCount = $ibImgItems.length,
-                            init = function () {
-
-// add a class ib-image to the image items
-                                $ibImgItems.addClass('ib-image');
-// apply the kinetic plugin to the wrapper
-                                loadKinetic();
-// load some events
-                                initEvents();
-
-                            },
-                            loadKinetic = function () {
-
-                                setWrapperSize();
-
-                                $ibWrapper.kinetic({
-                                    moved: function () {
-
-                                        kinetic_moving = true;
-
-                                    },
-                                    stopped: function () {
-
-                                        kinetic_moving = false;
-
-                                    }
-                                });
-
-                            },
-                            setWrapperSize = function () {
-
-                                var containerMargins = $('#ib-top').outerHeight(true) + $('#header').outerHeight(true) + parseFloat(
-                                                $ibItems.css('margin-top'));
-                                $ibWrapper.css('height', $(window).height() - containerMargins)
-
-                            },
-                            initEvents = function () {
-
-// open the item only if not dragging the container
-                                $ibItems.bind('click.ibTemplate', function (event) {
-
-                                    if (!kinetic_moving)
-                                        openItem($(this));
-
-                                    return false;
-
-                                });
-
-// on window resize, set the wrapper and preview size accordingly
-                                $(window).bind('resize.ibTemplate', function (event) {
-
-                                    setWrapperSize();
-
-                                    $('#ib-img-preview, #ib-content-preview').css({
-                                        width: $(window).width(),
-                                        height: $(window).height()
-                                    })
-
-                                });
-
-                            },
-                            openItem = function ($item) {
-
-                                if (isAnimating) return false;
-
-// if content item
-                                if ($item.hasClass('ib-content')) {
-
-                                    isAnimating = true;
-                                    current = $item.index('.ib-content');
-                                    loadContentItem($item, function () {
-                                        isAnimating = false;
-                                    });
-
-                                }
-// if image item
-                                else {
-
-                                    isAnimating = true;
-                                    current = $item.index('.ib-image');
-                                    loadImgPreview($item, function () {
-                                        isAnimating = false;
-                                    });
-
-                                }
-
-                            },
-// opens one image item (fullscreen)
-                            loadImgPreview = function ($item, callback) {
-
-                                var largeSrc = $item.children('img').data('largesrc'),
-                                        description = $item.children('span').text(),
-                                        largeImageData = {
-                                            src: largeSrc,
-                                            description: description
-                                        };
-
-// preload large image
-                                $item.addClass('ib-loading');
-
-                                preloadImage(largeSrc, function () {
-
-                                    $item.removeClass('ib-loading');
-
-                                    var hasImgPreview = ( $('#ib-img-preview').length > 0 );
-
-                                    if (!hasImgPreview)
-                                        $('#previewTmpl').tmpl(largeImageData).insertAfter($ibWrapper);
-                                    else
-                                        $('#ib-img-preview').children('img.ib-preview-img')
-                                                .attr('src', largeSrc)
-                                                .end()
-                                                .find('span.ib-preview-descr')
-                                                .text(description);
-
-//get dimentions for the image, based on the windows size
-                                    var dim = getImageDim(largeSrc);
-
-                                    $item.removeClass('ib-img-loading');
-
-//set the returned values and show/animate preview
-                                    $('#ib-img-preview').css({
-                                        width: $item.width(),
-                                        height: $item.height(),
-                                        left: $item.offset().left,
-                                        top: $item.offset().top
-                                    }).children('img.ib-preview-img').hide().css({
-                                        width: dim.width,
-                                        height: dim.height,
-                                        left: dim.left,
-                                        top: dim.top
-                                    }).fadeIn(400).end().show().animate({
-                                        width: $(window).width(),
-                                        left: 0
-                                    }, 500, 'easeOutExpo', function () {
-
-                                        $(this).animate({
-                                            height: $(window).height(),
-                                            top: 0
-                                        }, 400, function () {
-
-                                            var $this = $(this);
-                                            $this.find('span.ib-preview-descr, span.ib-close').show()
-                                            if (imgItemsCount > 1)
-                                                $this.find('div.ib-nav').show();
-
-                                            if (callback) callback.call();
-
-                                        });
-
-                                    });
-
-                                    if (!hasImgPreview)
-                                        initImgPreviewEvents();
-
-                                });
-
-                            },
-// opens one content item (fullscreen)
-                            loadContentItem = function ($item, callback) {
-
-                                var hasContentPreview = ( $('#ib-content-preview').length > 0 ),
-                                        teaser = $item.children('div.ib-teaser').html(),
-                                        content = $item.children('div.ib-content-full').html(),
-                                        contentData = {
-                                            teaser: teaser,
-                                            content: content
-                                        };
-
-                                if (!hasContentPreview)
-                                    $('#contentTmpl').tmpl(contentData).insertAfter($ibWrapper);
-
-//set the returned values and show/animate preview
-                                $('#ib-content-preview').css({
-                                    width: $item.width(),
-                                    height: $item.height(),
-                                    left: $item.offset().left,
-                                    top: $item.offset().top
-                                }).show().animate({
-                                    width: $(window).width(),
-                                    left: 0
-                                }, 500, 'easeOutExpo', function () {
-
-                                    $(this).animate({
-                                        height: $(window).height(),
-                                        top: 0
-                                    }, 400, function () {
-
-                                        var $this = $(this),
-                                                $teaser = $this.find('div.ib-teaser'),
-                                                $content = $this.find('div.ib-content-full'),
-                                                $close = $this.find('span.ib-close');
-
-                                        if (hasContentPreview) {
-                                            $teaser.html(teaser)
-                                            $content.html(content)
-                                        }
-
-                                        $teaser.show();
-                                        $content.show();
-                                        $close.show();
-
-                                        if (callback) callback.call();
-
-                                    });
-
-                                });
-
-                                if (!hasContentPreview)
-                                    initContentPreviewEvents();
-
-                            },
-// preloads an image
-                            preloadImage = function (src, callback) {
-
-                                $('<img/>').load(function () {
-
-                                    if (callback) callback.call();
-
-                                }).attr('src', src);
-
-                            },
-// load the events for the image preview : navigation ,close button, and window resize
-                            initImgPreviewEvents = function () {
-
-                                var $preview = $('#ib-img-preview');
-
-                                $preview.find('span.ib-nav-prev').bind('click.ibTemplate', function (event) {
-
-                                    navigate('prev');
-
-                                }).end().find('span.ib-nav-next').bind('click.ibTemplate', function (event) {
-
-                                    navigate('next');
-
-                                }).end().find('span.ib-close').bind('click.ibTemplate', function (event) {
-
-                                    closeImgPreview();
-
-                                });
-
-//resizing the window resizes the preview image
-                                $(window).bind('resize.ibTemplate', function (event) {
-
-                                    var $largeImg = $preview.children('img.ib-preview-img'),
-                                            dim = getImageDim($largeImg.attr('src'));
-
-                                    $largeImg.css({
-                                        width: dim.width,
-                                        height: dim.height,
-                                        left: dim.left,
-                                        top: dim.top
-                                    })
-
-                                });
-
-                            },
-// load the events for the content preview : close button
-                            initContentPreviewEvents = function () {
-
-                                $('#ib-content-preview').find('span.ib-close').bind('click.ibTemplate', function (event) {
-
-                                    closeContentPreview();
-
-                                });
-
-                            },
-// navigate the image items in fullscreen mode
-                            navigate = function (dir) {
-
-                                if (isAnimating) return false;
-
-                                isAnimating = true;
-
-                                var $preview = $('#ib-img-preview'),
-                                        $loading = $preview.find('div.ib-loading-large');
-
-                                $loading.show();
-
-                                if (dir === 'next') {
-
-                                    ( current === imgItemsCount - 1 ) ? current = 0 : ++current;
-
-                                }
-                                else if (dir === 'prev') {
-
-                                    ( current === 0 ) ? current = imgItemsCount - 1 : --current;
-
-                                }
-
-                                var $item = $ibImgItems.eq(current),
-                                        largeSrc = $item.children('img').data('largesrc'),
-                                        description = $item.children('span').text();
-
-                                preloadImage(largeSrc, function () {
-
-                                    $loading.hide();
-
-//get dimentions for the image, based on the windows size
-                                    var dim = getImageDim(largeSrc);
-
-                                    $preview.children('img.ib-preview-img')
-                                            .attr('src', largeSrc)
-                                            .css({
-                                                width: dim.width,
-                                                height: dim.height,
-                                                left: dim.left,
-                                                top: dim.top
-                                            })
-                                            .end()
-                                            .find('span.ib-preview-descr')
-                                            .text(description);
-
-                                    $ibWrapper.scrollTop($item.offset().top)
-                                            .scrollLeft($item.offset().left);
-
-                                    isAnimating = false;
-
-                                });
-
-                            },
-// closes the fullscreen image item
-                            closeImgPreview = function () {
-
-                                if (isAnimating) return false;
-
-                                isAnimating = true;
-
-                                var $item = $ibImgItems.eq(current);
-
-                                $('#ib-img-preview').find('span.ib-preview-descr, div.ib-nav, span.ib-close')
-                                        .hide()
-                                        .end()
-                                        .animate({
-                                            height: $item.height(),
-                                            top: $item.offset().top
-                                        }, 500, 'easeOutExpo', function () {
-
-                                            $(this).animate({
-                                                width: $item.width(),
-                                                left: $item.offset().left
-                                            }, 400, function () {
-
-                                                $(this).fadeOut(function () {
-                                                    isAnimating = false;
-                                                });
-
-                                            });
-
-                                        });
-
-                            },
-// closes the fullscreen content item
-                            closeContentPreview = function () {
-
-                                if (isAnimating) return false;
-
-                                isAnimating = true;
-
-                                var $item = $ibItems.not('.ib-image').eq(current);
-
-                                $('#ib-content-preview').find('div.ib-teaser, div.ib-content-full, span.ib-close')
-                                        .hide()
-                                        .end()
-                                        .animate({
-                                            height: $item.height(),
-                                            top: $item.offset().top
-                                        }, 500, 'easeOutExpo', function () {
-
-                                            $(this).animate({
-                                                width: $item.width(),
-                                                left: $item.offset().left
-                                            }, 400, function () {
-
-                                                $(this).fadeOut(function () {
-                                                    isAnimating = false;
-                                                });
-
-                                            });
-
-                                        });
-
-                            },
-// get the size of one image to make it full size and centered
-                            getImageDim = function (src) {
-
-                                var img = new Image();
-                                img.src = src;
-
-                                var w_w = $(window).width(),
-                                        w_h = $(window).height(),
-                                        r_w = w_h / w_w,
-                                        i_w = img.width,
-                                        i_h = img.height,
-                                        r_i = i_h / i_w,
-                                        new_w, new_h,
-                                        new_left, new_top;
-
-                                if (r_w > r_i) {
-
-                                    new_h = w_h;
-                                    new_w = w_h / r_i;
-
-                                }
-                                else {
-
-                                    new_h = w_w * r_i;
-                                    new_w = w_w;
-
-                                }
-
-                                return {
-                                    width: new_w,
-                                    height: new_h,
-                                    left: (w_w - new_w) / 2,
-                                    top: (w_h - new_h) / 2
-                                };
-
-                            };
-
-                    return {init: init};
-
-                })();
-
-        Template.init();
-
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    History.pushState(null, target[0].title + ' - FSTM GmbH', '?' + this.hash.slice(1));
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    $(document).ready(function () {
+        var split = location.href.split("?")[1];
+        if (split) {
+            var ref = $('#' + split);
+            if (ref.length) {
+                History.replaceState(null, ref[0].title + " - FSTM GmbH", location.href);
+                setTimeout(function () {
+                    $(window).scrollTop(ref.offset().top);
+                }, 100);
+            } else {
+                console.debug("ignoring " + split)
+            }
+        }
     });
 </script>
-<script type="application/ld+json" src="richsnippets.js">
-</script>
-<script type="application/ld+json">
-{
- "@context": "http://schema.org",
- "@type": "BreadcrumbList",
- "itemListElement":
- [
-  {
-   "@type": "ListItem",
-   "position": 1,
-   "item":
-   {
-    "@id": "http://fstm.de/",
-    "name": "Home"
-    }
-  }
- ]
-}
-</script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-79239555-1', 'auto');
-    ga('send', 'pageview');
+<script type="text/javascript">$('.carousel').carousel()</script>
 
-</script>
+<script async="async" defer="defer" type="application/ld+json" src="richsnippets.json"></script>
+
+
 </body>
-</html>	
+
+</html>
