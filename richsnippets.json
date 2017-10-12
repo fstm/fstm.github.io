@@ -2,15 +2,17 @@
   "@context": "http://schema.org",
   "@type": "Localbusiness",
   "url": "http://fstm.de/",
-  "sameAs": "http://www.tischler-schreiner.org/moers/frank-schaefers-tischlermeister-aULE7B",
-  "sameAs": "https://www.moneyhouse.de/FSTM-GmbH-Moers",
-  "sameAs": "http://www.unternehmen24.info/Firmeninformationen/DE/3611526",
-  "sameAs": "http://www.unternehmen1.com/FSTM+GmbH.html",
-  "sameAs": "http://www.genios.de/firmen/firma/FS/fstm-gmbh.html",
-  "sameAs": "http://www.firmenwissen.de/az/firmeneintrag/47445/5210289972/FSTM_GMBH.html",
-  "sameAs": "https://compaly.com/de/unternehmen/fstm-gmbh-moers-de",
-  "sameAs": "http://branchenbuch.meinestadt.de/moers/company/10307863",
-  "sameAs": "http://www.in0.de/fstm.de",
+  "sameAs": [
+    "http://www.tischler-schreiner.org/moers/frank-schaefers-tischlermeister-aULE7B",
+    "https://www.moneyhouse.de/FSTM-GmbH-Moers",
+    "http://www.unternehmen24.info/Firmeninformationen/DE/3611526",
+    "http://www.unternehmen1.com/FSTM+GmbH.html",
+    "http://www.genios.de/firmen/firma/FS/fstm-gmbh.html",
+    "http://www.firmenwissen.de/az/firmeneintrag/47445/5210289972/FSTM_GMBH.html",
+    "https://compaly.com/de/unternehmen/fstm-gmbh-moers-de",
+    "http://branchenbuch.meinestadt.de/moers/company/10307863",
+    "http://www.in0.de/fstm.de"
+  ],
   "name": "FSTM GmbH",
   "address": {
     "@type": "PostalAddress",
@@ -31,5 +33,6 @@
     "gender": "http://schema.org/Male",
     "jobtitle": "Tischlermeister",
     "telephone": "+49 163 4397337"
-  }
+  },
+  "image": "http://fstm.de/fstm.png"
 }
