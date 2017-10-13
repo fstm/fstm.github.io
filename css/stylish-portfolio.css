@@ -297,19 +297,20 @@ footer {
 }
 
 .carousel-caption {
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.2);
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 10;
-    padding: 0 0 10px 25px;
+    padding: 0 0 10px 14px;
     color: #fff;
     text-align: left;
 }
 
 .carousel-caption h2 {
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: 4px;
 }
 
 .carousel-indicators {
@@ -320,7 +321,7 @@ footer {
     width: 100%;
     z-index: 15;
     margin: 0;
-    padding: 0 25px 19px 0;
+    padding: 0 25px 25px 0;
     text-align: right;
 }
 
@@ -328,6 +329,18 @@ footer {
 .carousel-control.right {
     background-image: none;
 }
+
+@media (min-width: 576px) {
+    .carousel-caption h2 {
+        font-size: 18px;
+        padding: 0 0 10px 25px;
+    }
+
+    .carousel-indicators {
+        padding: 0 25px 19px 0;
+    }
+}
+
 
 .mapmarker {
     color: black;
