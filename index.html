@@ -228,13 +228,13 @@
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <div class="service-item">
-                            <a href="#Kontak">
+                            <a href="#Kontakt">
                                 <img src="img/services/logo.jpg" class="img-rounded" width="120" height="120"/>
                                 <h4>
                                     <strong>FSTM</strong>
                                 </h4>
                             </a>
-                            <p><a href="frankschaefers@fstm.de">frankschaefers@fstm.de</a><br/>0163 4397337</p>
+                            <p><a href="mailto:frankschaefers@fstm.de">frankschaefers@fstm.de</a><br/>0163 4397337</p>
                         </div>
                     </div>
                 </div>
@@ -1592,7 +1592,7 @@
 
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"
-        integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
+        integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE="></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -1616,8 +1616,8 @@
     // Scrolls to the selected menu item on the page
     $(function () {
         $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') || location.hostname === this.hostname) {
+                let target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
                     History.pushState(null, target[0].title + ' - FSTM GmbH', '?' + this.hash.slice(1));
@@ -1630,9 +1630,9 @@
         });
     });
     $(document).ready(function () {
-        var split = location.href.split("?")[1];
+        const split = location.href.split("?")[1];
         if (split) {
-            var ref = $('#' + split);
+            let ref = $('#' + split);
             if (ref.length) {
                 History.replaceState(null, ref[0].title + " - FSTM GmbH", location.href);
                 setTimeout(function () {
