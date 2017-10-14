@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "build": "npm run minify-html",
-    "minify-html": "html-minifier --minify-css true --minify-js true --minify-ur-ls --remove-comments --collapse-whitespace --remove-attribute-quotes --remove-script-type-attributes --remove-style-link-type-attributes --decode-entities --remove-tag-whitespace --max-line-length 170 -o index.html _index.html"
+    "build": "npm run minify-html && npm run clean-css",
+    "minify-html": "html-minifier --minify-css true --minify-js true --minify-ur-ls --remove-comments --collapse-whitespace --remove-attribute-quotes --remove-script-type-attributes --remove-style-link-type-attributes --decode-entities --remove-tag-whitespace --max-line-length 170 -o index.html _index.html",
+    "clean-css": "cleancss -o css/stylish-portfolio.min.css -c ie9 -d --level 2 css/stylish-portfolio.css"
   },
   "devDependencies": {
+    "clean-css-cli": "^4.1.10",
     "html-minifier": "^3.5.5"
   }
 }
