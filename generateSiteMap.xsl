@@ -21,7 +21,14 @@
 
     <xsl:template match="img">
         <image:image>
-            <image:loc>http://fstm.de/<xsl:value-of select="@src"/></image:loc>
+            <xsl:choose>
+                <xsl:when test="@data-src">
+                <image:loc>http://fstm.de/<xsl:value-of select="@data-src"/></image:loc>
+                </xsl:when>
+                <xsl:otherwise>
+                    <image:loc>http://fstm.de/<xsl:value-of select="@src"/></image:loc>
+                </xsl:otherwise>
+            </xsl:choose>
             <image:caption>
                 <xsl:value-of select="@alt"/>
             </image:caption>
