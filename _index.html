@@ -18,6 +18,7 @@
     <title>FSTM GmbH - Frank Schaefers Tischlermeister</title>
 
     <link href="css/fstm.min.css" rel="stylesheet"/>
+    <link href="css/jquery.cookiebar.min.css" rel="stylesheet"/>
     <!-- Bootstrap Core CSS -->
     <!--<link href="css/bootstrap.css" rel="stylesheet"/>-->
 
@@ -1651,6 +1652,8 @@
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"
         integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
 
+<!--<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>-->
+<script type="text/javascript" src="js/jquery.cookiebar.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script type="text/javascript"
@@ -1795,6 +1798,19 @@
         });
     });
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.cookieBar({
+            fixed: true,
+            bottom: true,
+            message: "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.",
+            acceptText: "OK",
+            policyButton: true,
+            policyText: "Datenschutzbestimmungen",
+            policyURL: "#Impressum"
+        });
+    });
+ </script>
 </body>
 
 </html>
