@@ -2,7 +2,7 @@
   "scripts": {
     "build": "npm run minify-html && npm run purify-css && npm run uglify-js",
     "minify-html": "html-minifier --minify-css true --minify-js true --minify-ur-ls --remove-comments --collapse-whitespace --remove-attribute-quotes --remove-script-type-attributes --remove-style-link-type-attributes --decode-entities --remove-tag-whitespace --max-line-length 170 -o index.html _index.html",
-    "purify-css": "purifycss css/bootstrap.css css/font-awesome.css css/stylish-portfolio.css index.html -m -o css/fstm.min.css -i",
+    "purify-css": "purifycss css/bootstrap.css css/font-awesome.css css/stylish-portfolio.css css/jquery.cookiebar.min.css fonts/googlewebfont.css index.html -m -o css/fstm.min.css -i",
     "uglify-js": "uglifyjs --compress --mangle -o js/jquery.history.min.js js/jquery.history.js"
   },
   "devDependencies": {
